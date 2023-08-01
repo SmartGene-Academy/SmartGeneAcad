@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SmartGene-Academy/SmartGeneAcad/static/css/main.073c9b0a.css",
+    "main.js": "/SmartGene-Academy/SmartGeneAcad/static/js/main.8cb44925.js",
+    "static/js/787.5462ee14.chunk.js": "/SmartGene-Academy/SmartGeneAcad/static/js/787.5462ee14.chunk.js",
+    "static/media/logo.svg": "/SmartGene-Academy/SmartGeneAcad/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SmartGene-Academy/SmartGeneAcad/index.html",
+    "main.073c9b0a.css.map": "/SmartGene-Academy/SmartGeneAcad/static/css/main.073c9b0a.css.map",
+    "main.8cb44925.js.map": "/SmartGene-Academy/SmartGeneAcad/static/js/main.8cb44925.js.map",
+    "787.5462ee14.chunk.js.map": "/SmartGene-Academy/SmartGeneAcad/static/js/787.5462ee14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8cb44925.js"
+  ]
+}
