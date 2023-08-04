@@ -1,4 +1,5 @@
 import React from 'react';
+import SignUp from './images/SignUp.png'
 
 const NavBar = () => {
   const navBarStyle = {
@@ -70,19 +71,31 @@ const NavBar = () => {
     // Add other styles as needed
   }
 
-  const LogInStyle = {
-    width: '100px',
-    height: '38px',
-    position: 'absolute',
-    right: '261px',
-    bottom: '31px',
-    color: '#000',
-    fontFamily: 'Inter',
-    fontSize: '30px',
-    fontStyle: 'normal',
-    fontWeight: '700',
-    lineHeight: 'normal',
+  const SignUpStyle = {
+    backgroundColor: '#344055', // Add the blue background color
+    color: '#fff', // Change text color to white for better visibility
+    padding: '8px 16px', // Add padding to create the box effect
+    borderRadius: '8px', // Add rounded corners to the box
+    display: 'flex', // Use flex layout to align the avatar and label
+    alignItems: 'center', // Center align the items vertically
+    gap: '5px',
   }
+
+  const MenuStyle2 = {
+    position: 'absolute',
+    right: '400px',
+    bottom: '29px',
+    display: 'flex', // Setting display to 'flex' to use flex layout
+    alignItems: 'center',
+    gap: '20px', // Add a gap of 62px between the child elements
+    fontFamily: 'Inter',
+  }
+
+  const LogInStyle = {
+    marginLeft: '20px',
+    fontWeight: 700,
+  }
+
 
   return (
     <div className="navbar" style={navBarStyle}>
@@ -91,14 +104,21 @@ const NavBar = () => {
 
       {/* Menu container */}
       <div style={menuStyle}>
-        <a style={menuItemStyle1}>Programs</a>
-        <a style={menuItemStyle2}>Resources</a>
-        <a style={menuItemStyle3}>About Us</a>
-        <a style={menuItemStyle4}>Connect</a>
+        <a href='/Programs' style={menuItemStyle1}>Programs</a>
+        <a href='/Resources' style={menuItemStyle2}>Resources</a>
+        <a href='/About' style={menuItemStyle3}>About Us</a>
+        <a href='/Connect' style={menuItemStyle4}>Connect</a>
         {/* Add other menu items or components as needed */}
       </div>
-    <div>
-        <p style={LogInStyle}>Log In</p>
+    <div style={MenuStyle2}>
+        <a style={LogInStyle}>Log In</a>
+        <div style={SignUpStyle}>
+            <a>Sign Up</a>
+            <img 
+            src={SignUp}
+            alt='Sign Up Avatar'
+            style={{marginRight: '8px', width: '24px', height: '24px'}}></img>
+        </div>
     </div>
 
     </div>
