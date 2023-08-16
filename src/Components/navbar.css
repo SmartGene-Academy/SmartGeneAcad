@@ -1,0 +1,11 @@
+.ml-auto{
+    margin-left: auto;
+    padding-right: 5%;
+    background-color: #344055;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
